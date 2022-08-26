@@ -12,14 +12,14 @@
 	<artifactId>bumble2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>bumble2</name>
-	<description>Dating Application</description>
+	<description>bumble but 2</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
