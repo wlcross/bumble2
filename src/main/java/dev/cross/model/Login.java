@@ -11,11 +11,11 @@ public class Login {
 		this.password = password;
 	}
 	
-	String getPassword() {
+	public String getPassword() {
 		return password;
 	}
 	
-	String getUsername() {
+	public String getUsername() {
 		return username;
 	}
 	
