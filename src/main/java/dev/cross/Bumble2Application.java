@@ -1,4 +1,4 @@
-package dev.cross.bumble2;
+package dev.cross;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
