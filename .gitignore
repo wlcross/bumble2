@@ -58,3 +58,6 @@ build/
 
 #Security
 application.properties
+
+#Node Modules
+node_modules
