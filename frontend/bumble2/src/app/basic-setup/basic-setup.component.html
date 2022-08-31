@@ -1,1 +1,52 @@
-<p>basic-setup works!</p>
+
+
+
+<div class="setup-body">
+    <div class = 'setup-form'>
+        <div class="title">Your account has been created, now let's get some basic info</div>
+        <div class = "form-div"> 
+            <label for="username">First Name</label>
+            <input type="text" name="fName" class ="form-control" [(ngModel)]="fName"/>
+        </div>
+        <div class = "form-div"> 
+            <label for="password">Last Name</label>
+            <input type="password" name="lName" class ="form-control" [(ngModel)]="lName"/>
+        </div>
+        <div class = "form-div"> 
+            <label for="state">State</label>
+            <select name="state" class ="form-control" [(ngModel)]="state" onchange="stateChange()">
+                <option value="default" selected disabled>---</option>
+            </select>
+        </div>
+        <div class = "form-div"> 
+            <label for="city">City</label>
+            <select name="city" class ="form-control" [(ngModel)]="city" onchange="stateChange()">
+                <option value="default" selected disabled>---</option>
+            </select>
+        </div>
+        <div class = "form-div"> 
+            <label for="gender">Gender</label>
+            <select name="gender" class ="form-control" [(ngModel)]="gender">
+                <option value="default" selected disabled>---</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+            </select>
+        </div>
+        <div class = "form-div"> 
+            <label for="sexuality">Looking For..</label>
+            <select name="sexuality" class ="form-control" [(ngModel)]="sexuality">
+                <option value="default" selected disabled>---</option>
+                <option value="male">Men</option>
+                <option value="female">Women</option>
+                <option value="both">Both</option>
+            </select>
+        </div>
+        <div class="button-div">
+            <button type="button" class="btn btn-primary btn-lg" (click) = "submit()">Submit</button>
+        </div>
+
+        <div class="error-message">
+            <span [innerHTML]="error"></span> 
+        </div>
+    </div>
+</div> 
