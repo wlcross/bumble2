@@ -9,7 +9,6 @@ import { RegisterComponent } from './register/register.component';
 import { BasicSetupComponent } from './basic-setup/basic-setup.component';
 import { FormsModule } from '@angular/forms';
 import { UserProfileComponent } from './user-profile/user-profile.component';
-import { OtherProfileComponent } from './other-profile/other-profile.component';
 import { QuizComponent } from './quiz/quiz.component';
 import { UserListComponent } from './user-list/user-list.component';
 
@@ -20,7 +19,6 @@ import { UserListComponent } from './user-list/user-list.component';
     RegisterComponent,
     BasicSetupComponent,
     UserProfileComponent,
-    OtherProfileComponent,
     QuizComponent,
     UserListComponent
   ],
