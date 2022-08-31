@@ -10,12 +10,10 @@ export class RegisterComponent implements OnInit {
   username = "";
   pass ="";
   confirmPass ="";
-  error;
+  error = "";
   user = -1;
 
-  constructor() { 
-    this.error = "";
-  }
+  constructor() { }
 
   ngOnInit(): void {
   }
@@ -33,5 +31,9 @@ export class RegisterComponent implements OnInit {
       this.error = "Failed to register"
       return;
     }
+  }
+
+  cancel() {
+    
   }
 }

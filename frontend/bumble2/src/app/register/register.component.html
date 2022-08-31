@@ -1,5 +1,9 @@
 <div class="register-body">
     <div class = 'register-form'>
+        <div class = "cancel-div">
+            <button type="button" class="btn btn-outline-primary btn-sm" (click) = "cancel()">Cancel</button>
+        </div>
+        <div class = "title">Registration Form</div>
         <div class = "form-div"> 
             <label for="username">Username</label>
             <input type="text" name="username" class ="form-control" [(ngModel)]="username"/>
