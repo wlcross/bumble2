@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { LoginService } from '../services/login.service';
 
 @Component({
   selector: 'app-login',
@@ -11,13 +12,13 @@ export class LoginComponent implements OnInit {
   username ="";
   pass = "";
 
-  constructor(private router:Router) { }
+  constructor(private loginSerivce:LoginService, private router:Router) { }
 
   ngOnInit(): void {
   }
 
   login() {
-    //Insert Login Validation
+    this.loginSerivce.attemptLogin(this.username, this.pass);
   }
 
   register() {
