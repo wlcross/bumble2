@@ -1,9 +1,11 @@
 <div class="login-body">
-    <div class="login-title">
-        <img class="logo" src="assets/logo.png" alt=""> 
-        <div class="title">Bumble 2 Login Page</div>
+    <div class = 'register-form'>
+        <div class="register-div">
+            <p>No account?</p>
+            <button type="button" class="btn btn-primary btn-lg" (click) = "register()">Register</button>
+        </div>
     </div>
-    
+
     <div class = 'login-form'>
         <div class = "form-div"> 
             <label for="username">Username</label>
@@ -16,8 +18,10 @@
         <div class="button-div">
             <button type="button" class="btn btn-primary btn-lg" (click) = "login()">Login</button>
         </div>
-        <div class="button-div">
-            <button type="button" class="btn btn-primary btn-lg" (click) = "register()">Register</button>
-        </div>
+    </div>
+
+    <div class="login-title">
+        <img class="logo" src="assets/logo.png" alt=""> 
+        <div class="title">Bumble 2 Login Page</div>
     </div>
 </div> 

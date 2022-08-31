@@ -7,14 +7,28 @@
 
 .login-form {
     width: 500px;
-    height: 400px;
+    height: 300px;
     padding: 20px;
     background-color: white;
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
-    -ms-transform: translate(-50%, -50%);
+    -ms-transform: translate(-40%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 5px 5px 20px #002CB2;
+}
+
+.register-form {
+    width: 500px;
+    height: 150px;
+    padding: 20px;
+    background-color: white;
+    margin: 0;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    -ms-transform: translate(-60%, -50%);
     transform: translate(-50%, -50%);
     box-shadow: 5px 5px 20px #002CB2;
 }
@@ -39,6 +53,13 @@
 
 .button-div {
     margin-top: 40px;
+    position: relative;
+    left: 0%;
+    text-align: center;
+}
+
+.register-div {
+    margin-top: 20px;
     position: relative;
     left: 0%;
     text-align: center;
