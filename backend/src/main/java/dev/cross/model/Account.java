@@ -128,6 +128,98 @@ public class Account {
 		this.password = p;
 	}
 
+	public int getuID() {
+		return uID;
+	}
+
+	public String getUsername() {
+		return username;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public int getCity() {
+		return city;
+	}
+
+	public String getBlurb() {
+		return blurb;
+	}
+
+	public String getImage() {
+		return image;
+	}
+
+	public boolean isMale() {
+		return male;
+	}
+
+	public boolean isAttractedtomales() {
+		return attractedtomales;
+	}
+
+	public boolean isAttractedtofemales() {
+		return attractedtofemales;
+	}
+
+	public boolean isLooking() {
+		return looking;
+	}
+
+	public boolean isSetup() {
+		return setup;
+	}
+
+	public boolean isBanned() {
+		return banned;
+	}
+
+	public double getActive() {
+		return active;
+	}
+
+	public double getMethodical() {
+		return methodical;
+	}
+
+	public double getExtrovert() {
+		return extrovert;
+	}
+
+	public double getExperimental() {
+		return experimental;
+	}
+
+	public double getTraditional() {
+		return traditional;
+	}
+
+	public int getHobby1() {
+		return hobby1;
+	}
+
+	public int getHobby2() {
+		return hobby2;
+	}
+
+	public int getHobby3() {
+		return hobby3;
+	}
+
+	public int getHobby4() {
+		return hobby4;
+	}
+
+	public int getHobby5() {
+		return hobby5;
+	}
+
 	//TODO DELETE
 	@Override
 	public String toString() {
