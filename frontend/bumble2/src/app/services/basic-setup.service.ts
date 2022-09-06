@@ -12,4 +12,16 @@ export class BasicSetupService {
     basicSetup() {
         
     }
+
+    getStates() {
+        let url = "http://localhost:8087/states";
+        let statesub = (this.http.get(url));
+        return statesub;
+    }
+
+    getCities(state:string) {
+      let url = "http://localhost:8087/cities/" + state;
+      let citysub = (this.http.get(url));
+      return citysub;
+    }
 }
