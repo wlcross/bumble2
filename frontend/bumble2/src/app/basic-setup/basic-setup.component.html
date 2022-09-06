@@ -1,6 +1,3 @@
-
-
-
 <div class="setup-body">
     <div class = 'setup-form'>
         <div class="title">Your account has been created, now let's get some basic info</div>
@@ -14,13 +11,13 @@
         </div>
         <div class = "form-div"> 
             <label for="state">State</label>
-            <select name="state" class ="form-control" [(ngModel)]="state" onchange="stateChange()">
+            <select name="state" class ="form-control" [(ngModel)]="state" (change)="stateChange()">
                 <option value="default" selected disabled>---</option>
             </select>
         </div>
         <div class = "form-div"> 
             <label for="city">City</label>
-            <select name="city" class ="form-control" [(ngModel)]="city" onchange="stateChange()">
+            <select name="city" class ="form-control" [(ngModel)]="city" (change)="cityChange()">
                 <option value="default" selected disabled>---</option>
             </select>
         </div>
